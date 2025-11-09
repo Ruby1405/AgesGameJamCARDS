@@ -5831,7 +5831,7 @@ MonoBehaviour:
   _mainMenuContainer: {fileID: 176329910}
   _optionsMenuContainer: {fileID: 1001362236}
   _creditsMenuContainer: {fileID: 1299907939}
-  _sceneToLoadAtClick: SampleScene
+  _sceneToLoadAtClick: CaveScene 1
 --- !u!4 &791214674
 Transform:
   m_ObjectHideFlags: 0
