@@ -5,12 +5,33 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 168fb3393cdd543449d628c3f4ae489e
+  - enabled: 1
+    path: Assets/Scenes/Cave Scenes/CaveScene 1.unity
+    guid: 07bf96511b23b0f4588386b25f4714d8
+  - enabled: 1
+    path: Assets/Scenes/Cave Scenes/CaveScene 2.unity
+    guid: 5f5e6811637dd6d479488ddafc351fc3
+  - enabled: 1
+    path: Assets/Scenes/Cave Scenes/CaveScene 3.unity
+    guid: 3dbd628018adb8f42af3e8537377b379
+  - enabled: 1
+    path: Assets/Scenes/Cave Scenes/CaveScene End.unity
+    guid: 8365429dd0da3c843b0a68568a5a7093
+  - enabled: 1
+    path: Assets/Scenes/Video Scenes/Frag 1.unity
+    guid: fbbc6da79c1659f4c8eca91a3314056b
+  - enabled: 1
+    path: Assets/Scenes/Video Scenes/Frag 2.unity
+    guid: 252bb04e56fd7af4eaa9a38afa10ad5d
+  - enabled: 1
+    path: Assets/Scenes/Video Scenes/Frag 3.unity
+    guid: cea0982f260e0ca41b2a80fb5853dc94
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

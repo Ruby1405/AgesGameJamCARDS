@@ -356,6 +356,10 @@ PrefabInstance:
       value: GameManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 9144061867013770721, guid: 99d8eec667f76ad4b992467af34251bc, type: 3}
+      propertyPath: onTimeElapsed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: CaveScene End
+      objectReference: {fileID: 0}
+    - target: {fileID: 9144061867013770721, guid: 99d8eec667f76ad4b992467af34251bc, type: 3}
       propertyPath: onTimeElapsed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
