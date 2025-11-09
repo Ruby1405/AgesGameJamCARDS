@@ -45,8 +45,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialCaveParts: 20
-  branchChance: 0
-  redBallPrefab: {fileID: 3380649596232791548, guid: cb20be7d4bd9fe540bc25f4032a35b26, type: 3}
   cavePartPalette:
   - cavePrefab: {fileID: 2382745528004730524, guid: 3830d1151de5056449c012e7bf1fef56, type: 3}
     position: {x: 0, y: 0, z: 0}
@@ -68,3 +66,15 @@ MonoBehaviour:
     entryOffset: {x: 0, y: -4, z: -8}
     exitOffset: {x: -8, y: 4, z: 0}
     caveDirection: 3
+  endCap:
+    cavePrefab: {fileID: 1412814709454680011, guid: 6e92ad3f6923ab14cb0c28fd6337bcbb, type: 3}
+    position: {x: 0, y: 0, z: 0}
+    entryOffset: {x: 0, y: -4, z: -8}
+    exitOffset: {x: 0, y: 0, z: 0}
+    caveDirection: 0
+  startCap:
+    cavePrefab: {fileID: 0}
+    position: {x: 0, y: 0, z: 0}
+    entryOffset: {x: 0, y: 0, z: 0}
+    exitOffset: {x: 0, y: 0, z: 0}
+    caveDirection: 0

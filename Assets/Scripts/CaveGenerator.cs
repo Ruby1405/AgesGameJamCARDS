@@ -7,6 +7,8 @@ public class CaveGenerator : MonoBehaviour
     // [SerializeField][Range(0, 1)] float branchChance = 0.2f;
     // [SerializeField] GameObject redBallPrefab;
     [SerializeField] List<CavePart> cavePartPalette;
+    [SerializeField] CavePart endCap;
+    [SerializeField] CavePart startCap;
     private MonoCavePart firstCavePart;
     public MonoCavePart FirstCavePart => firstCavePart;
 
@@ -97,7 +99,7 @@ public class CaveGenerator : MonoBehaviour
             // }
 
             int cavePartIndex = Random.Range(0, cavePartPalette.Count);
-            
+
             CavePart selectedPart = cavePartPalette[cavePartIndex];
             currentPosition -= currentRotation * selectedPart.entryOffset;
             GameObject caveInstance = Instantiate(
@@ -119,7 +121,14 @@ public class CaveGenerator : MonoBehaviour
                 previousPart = previousPart.nextPart;
             }
         }
-        
+
+        if (endCap == null) return;
+        // Add end cap
+        currentPosition -= currentRotation * endCap.entryOffset;
+        GameObject endCapInstance = Instantiate(
+            endCap.cavePrefab,
+            currentPosition,
+            currentRotation);
     }
 
     private float GetRotationAngle(Direction direction)

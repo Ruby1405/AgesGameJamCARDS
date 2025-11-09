@@ -371,6 +371,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 537954572518780538, guid: ea82accfa06edf54cb43840364091690, type: 3}
+      propertyPath: endCap.cavePrefab
+      value: 
+      objectReference: {fileID: 1412814709454680011, guid: 6e92ad3f6923ab14cb0c28fd6337bcbb, type: 3}
+    - target: {fileID: 537954572518780538, guid: ea82accfa06edf54cb43840364091690, type: 3}
+      propertyPath: endCap.entryOffset.y
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 537954572518780538, guid: ea82accfa06edf54cb43840364091690, type: 3}
+      propertyPath: endCap.entryOffset.z
+      value: -8
+      objectReference: {fileID: 0}
     - target: {fileID: 3038143182430358490, guid: ea82accfa06edf54cb43840364091690, type: 3}
       propertyPath: m_Name
       value: CaveGen
