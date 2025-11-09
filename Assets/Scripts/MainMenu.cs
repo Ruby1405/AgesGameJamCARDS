@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
     [SerializeField] GameObject _mainMenuContainer;
     [SerializeField] GameObject _optionsMenuContainer;
     [SerializeField] GameObject _creditsMenuContainer;
-    [SerializeField] private string _sceneToLoadAtClick;
+    [SerializeField] public string _sceneToLoadAtClick;
 
     public void Awake()
     {
@@ -81,7 +81,7 @@ public class MainMenu : MonoBehaviour
     }
     public void PlayClicked()
     {
-        //SceneManager.LoadScene(_sceneToLoadAtClick);
+        SceneManager.LoadScene(_sceneToLoadAtClick);
     }
 
     private void DebugMessage(string message)
