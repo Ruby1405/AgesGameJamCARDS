@@ -32,6 +32,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Video Scenes/Frag 3.unity
     guid: cea0982f260e0ca41b2a80fb5853dc94
+  - enabled: 1
+    path: Assets/Scenes/Video Scenes/End.unity
+    guid: 9ca1dee42f66d9a418d2a10e7119ab26
+  - enabled: 1
+    path: Assets/Scenes/Video Scenes/Start.unity
+    guid: f126cd41d0783414a8d0e7e4b038de46
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
