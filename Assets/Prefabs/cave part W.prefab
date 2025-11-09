@@ -78,17 +78,33 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cf18ef237eeb7794ebc7bcc2a371ddb1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8876752921264700909}
+      addedObject: {fileID: 7162035109504120970}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cf18ef237eeb7794ebc7bcc2a371ddb1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7162035109504120970}
+      addedObject: {fileID: -2173547930003342263}
   m_SourcePrefab: {fileID: 100100000, guid: cf18ef237eeb7794ebc7bcc2a371ddb1, type: 3}
 --- !u!1 &8847307941411139247 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cf18ef237eeb7794ebc7bcc2a371ddb1, type: 3}
   m_PrefabInstance: {fileID: 8504654698446361598}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &8876752921264700909
+--- !u!114 &7162035109504120970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8847307941411139247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3e1dafa0689c974685c848a4c1eca89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p0: {x: 0, y: -4, z: -8}
+  p1: {x: -2, y: 0, z: -2}
+  p2: {x: -8, y: 4, z: 0}
+  nextPart: {fileID: 0}
+--- !u!64 &-2173547930003342263
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,20 +125,4 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 84447355952582512, guid: cf18ef237eeb7794ebc7bcc2a371ddb1, type: 3}
---- !u!114 &7162035109504120970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8847307941411139247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3e1dafa0689c974685c848a4c1eca89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  p0: {x: 0, y: -4, z: -8}
-  p1: {x: -2, y: 0, z: -2}
-  p2: {x: -8, y: 4, z: 0}
-  nextPart: {fileID: 0}
+  m_Mesh: {fileID: -8966692232057139237, guid: cf18ef237eeb7794ebc7bcc2a371ddb1, type: 3}

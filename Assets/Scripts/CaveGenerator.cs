@@ -8,7 +8,6 @@ public class CaveGenerator : MonoBehaviour
     // [SerializeField] GameObject redBallPrefab;
     [SerializeField] List<CavePart> cavePartPalette;
     [SerializeField] CavePart endCap;
-    [SerializeField] CavePart startCap;
     private MonoCavePart firstCavePart;
     public MonoCavePart FirstCavePart => firstCavePart;
 
