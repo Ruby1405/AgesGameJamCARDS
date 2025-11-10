@@ -212,8 +212,40 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5617163500563610991, guid: 63e2471c3d8556a4fbec666605bf567a, type: 3}
+      propertyPath: onTimeElapsed.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617163500563610991, guid: 63e2471c3d8556a4fbec666605bf567a, type: 3}
+      propertyPath: onTimeElapsed.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617163500563610991, guid: 63e2471c3d8556a4fbec666605bf567a, type: 3}
+      propertyPath: onTimeElapsed.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 652844312}
+    - target: {fileID: 5617163500563610991, guid: 63e2471c3d8556a4fbec666605bf567a, type: 3}
+      propertyPath: onTimeElapsed.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617163500563610991, guid: 63e2471c3d8556a4fbec666605bf567a, type: 3}
+      propertyPath: onTimeElapsed.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: set_name
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617163500563610991, guid: 63e2471c3d8556a4fbec666605bf567a, type: 3}
+      propertyPath: onTimeElapsed.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FMODUnity.StudioGlobalParameterTrigger, FMODUnity
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617163500563610991, guid: 63e2471c3d8556a4fbec666605bf567a, type: 3}
       propertyPath: onTimeElapsed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: CaveScene 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617163500563610991, guid: 63e2471c3d8556a4fbec666605bf567a, type: 3}
+      propertyPath: onTimeElapsed.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: CaveScene 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617163500563610991, guid: 63e2471c3d8556a4fbec666605bf567a, type: 3}
+      propertyPath: onTimeElapsed.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -257,7 +289,7 @@ MonoBehaviour:
   CollisionTag: 
   Parameter: GameFlow
   TriggerEvent: 1
-  Value: 1
+  Value: 2
 --- !u!4 &652844313
 Transform:
   m_ObjectHideFlags: 0

@@ -151,7 +151,7 @@ MonoBehaviour:
   CollisionTag: 
   Parameter: GameFlow
   TriggerEvent: 1
-  Value: 1
+  Value: 2
 --- !u!4 &208030310
 Transform:
   m_ObjectHideFlags: 0
